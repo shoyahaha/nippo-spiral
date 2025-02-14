@@ -11,7 +11,7 @@
 
   - Slackに投稿された日報を収集する
 
-  - Amazon SageMakerで反省点や課題のランキングを作成するモデルを作り、トレンドを可視化する
+  - SageMaker AIで反省点や課題のランキングを作成するモデルを作り、トレンドを可視化する
 
   - 解析結果をSlackに自動通知する
 
@@ -19,7 +19,7 @@
 
   - 日報はSlackの特定チャンネルに投稿される
 
-  - AWS環境（Amazon SageMaker、S3など）を利用できる
+  - AWS環境（SageMaker AI、S3など）を利用できる
 
   - Pythonで実装できる
 
@@ -41,7 +41,7 @@
 
 ### 5-1. 方針
 
-- Slack APIとAmazon SageMakerを組み合わせ、日報の自動振り返りシステムを構築する。
+- Slack APIとSageMaker AIを組み合わせ、日報の自動振り返りシステムを構築する。
 
   - 方針の詳細
 
@@ -57,7 +57,7 @@
 
 - Slack APIを用いた日報の取得（message.channels イベント）
 
-- Amazon SageMakerで作成したモデルにデータを送信し、NLPモデルで振り返り
+- SageMaker AIで作成したモデルにデータを送信し、NLPモデルで振り返り
 
 - 反省点ランキングや頻出ワードを集計
 
@@ -97,14 +97,14 @@
 ## 対応
 - 対応一覧
   1. Slack APIを用いた日報の取得（message.channels イベント）
-  2. Amazon SageMakerで作成したモデルにデータを送信し、NLPモデルで振り返り
+  2. SageMaker AIで作成したモデルにデータを送信し、NLPモデルで振り返り
   3. 反省点ランキングや頻出ワードを集計
   4. Streamlitで可視化し、ダッシュボードを作成
   5. Slack Web API（chat.postMessage）を用いた自動通知
 
 ## 対応詳細
 1. Slack APIを用いた日報の取得（message.channels イベント）
-2. Amazon SageMakerで作成したモデルにデータを送信し、NLPモデルで振り返り
+2. SageMaker AIで作成したモデルにデータを送信し、NLPモデルで振り返り
 3. 反省点ランキングや頻出ワードを集計
 4. Streamlitで可視化し、ダッシュボードを作成
 5. Slack Web API（chat.postMessage）を用いた自動通知
