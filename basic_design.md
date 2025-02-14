@@ -38,3 +38,6 @@
   - 確認論点名
 ### リンク
 
+### 参考
+https://aws.amazon.com/jp/cdp/sagemaker/
+
