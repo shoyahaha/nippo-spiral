@@ -37,47 +37,47 @@
 
 ### 2-1. 検討経緯
 
-**前提**
+- **前提**
 
-- Slack APIを使用し、リアルタイムで日報を取得できる
+  - Slack APIを使用し、リアルタイムで日報を取得できる
 
-- Amazon SageMakerを用いることで、NLPを活用した課題分類が可能
+  - Amazon SageMakerを用いることで、NLPを活用した課題分類が可能
 
-- AWS無料枠を活用し、コストを抑えながら運用できる
+  - AWS無料枠を活用し、コストを抑えながら運用できる
 
-**検討内容**
+- **検討内容**
 
-- データ取得方法
+  - データ取得方法
 
-  - Slack Events APIを利用し、日報投稿をリアルタイムで収集する
+    - Slack Events APIを利用し、日報投稿をリアルタイムで収集する
 
-- 振り返り方法
+  - 振り返り方法
 
-  - Amazon SageMakerで自然言語処理（NLP）を実行し、課題を分類する
+    - Amazon SageMakerで自然言語処理（NLP）を実行し、課題を分類する
 
-  - Scikit-learnというライブラリを用いて頻出ワードを抽出する
+    - Scikit-learnというライブラリを用いて頻出ワードを抽出する
 
-- 可視化と通知方法
+  - 可視化と通知方法
 
-  - Streamlitでランキングやワードクラウドを可視化
+    - Streamlitでランキングやワードクラウドを可視化
 
-  - Slack Web APIを利用し、分析結果を自動通知する
+    - Slack Web APIを利用し、分析結果を自動通知する
 
 ## 3. 方針（アプローチ）
 
 ### 3-1. 方針
 
-Slack APIとAmazon SageMakerを組み合わせ、日報の自動振り返りシステムを構築する。
+- Slack APIとAmazon SageMakerを組み合わせ、日報の自動振り返りシステムを構築する。
 
-- 方針の詳細
+  - 方針の詳細
 
-  - リアルタイムでデータ収集: Slack Events APIを利用
+    - リアルタイムでデータ収集: Slack Events APIを利用
 
-  - 振り返り: SageMakerのNLPモデルで反省点を分類
+    - 振り返り: SageMakerのNLPモデルで反省点を分類
 
-  - データの可視化: Streamlitを用いたダッシュボード
+    - データの可視化: Streamlitを用いたダッシュボード
 
-  - 結果の通知: Slack Web APIを利用し、分析結果を自動投稿
+    - 結果の通知: Slack Web APIを利用し、分析結果を自動投稿
 
 ### 3-2. 今回やること
 
