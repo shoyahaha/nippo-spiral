@@ -83,7 +83,7 @@ Slack APIとAmazon SageMakerを組み合わせ、日報の自動振り返りシ�
 
 - Slack APIを用いた日報の取得（message.channels イベント）
 
-- Amazon SageMakerにデータを送信し、NLPモデルで振り返り
+- Amazon SageMakerで作成したモデルにデータを送信し、NLPモデルで振り返り
 
 - 反省点ランキングや頻出ワードを集計
 
