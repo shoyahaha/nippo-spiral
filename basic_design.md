@@ -40,4 +40,5 @@
 
 ### 参考
 https://aws.amazon.com/jp/cdp/sagemaker/
+
 https://dev.classmethod.jp/articles/awssummit-2021-cus-21/
