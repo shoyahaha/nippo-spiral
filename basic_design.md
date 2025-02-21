@@ -37,13 +37,6 @@
 ### 確認論点
   - 確認論点名
 ### リンク
-**案1**
-
-<img width="837" alt="image" src="https://github.com/user-attachments/assets/67ee5854-d672-4f7b-b4d6-7e5b03b31ae0" />
-
-
-**案2**
-
 <img width="824" alt="image" src="https://github.com/user-attachments/assets/bceee15d-bd22-4290-83b4-030265b61494" />
 
 
