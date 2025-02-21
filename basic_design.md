@@ -37,7 +37,7 @@
 ### 確認論点
   - 確認論点名
 ### リンク
-<img width="833" alt="image" src="https://github.com/user-attachments/assets/6c4cc9de-fbf4-4bdd-a338-22c584a361e8" />
+<img width="831" alt="image" src="https://github.com/user-attachments/assets/f6ffeb1a-b166-4fd6-8f3f-5c9187cf1c56" />
 
 
 
