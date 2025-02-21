@@ -37,7 +37,8 @@
 ### 確認論点
   - 確認論点名
 ### リンク
-<img width="822" alt="image" src="https://github.com/user-attachments/assets/c5b690e2-4054-40b7-bebf-6b6282c492a9" />
+<img width="837" alt="image" src="https://github.com/user-attachments/assets/67ee5854-d672-4f7b-b4d6-7e5b03b31ae0" />
+
 
 ### 参考
 https://aws.amazon.com/jp/cdp/sagemaker/
